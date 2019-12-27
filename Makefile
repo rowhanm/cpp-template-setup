@@ -6,5 +6,7 @@ test: a.cpp
 
 clean: 
 	rm -rf test run
+gen:
+	g++ -o gen gen.cpp
 
-.PHONY: test clean run
+.PHONY: test clean run gen
