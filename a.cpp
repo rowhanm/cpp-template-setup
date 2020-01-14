@@ -5,7 +5,7 @@ typedef long long ll;
 
 int main() {
     int n;
-    scanf("%d\n", &n);
+    scanf("%d \n", &n);
     std::deque<int> nums;
     int num;
     for (size_t i = 0; i < n; i++)
